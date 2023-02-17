@@ -12,5 +12,8 @@ public class StringRunner {
                 }
             }
             System.out.println(" day with most number of characters " + dayWithMostCharacters);
-        }
+            for(int  i= daysOfWeek.length-1; i>=0;i--){
+                System.out.println(daysOfWeek[i]);
+            }
+    }
     }
